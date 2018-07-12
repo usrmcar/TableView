@@ -1,5 +1,4 @@
-[
- {
+[{
  "title": "Create a TableView example",
  "status": "done"
  },
@@ -10,8 +9,8 @@
  {
  "title": "Create a ViewController example",
  "status": "pendent"
- },{
+ },
+ {
  "title": "Create a TabBarController example",
  "status": "pendent"
- }
- ]
+ }]

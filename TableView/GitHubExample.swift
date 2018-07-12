@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct GitHubExample {
+struct GitHubExample: Decodable {
     let title: String
     let status: String
 }

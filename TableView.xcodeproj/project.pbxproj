@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E162B01C20F5A2E3009121D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E162B01B20F5A2E3009121D5 /* AppDelegate.swift */; };
-		E162B01E20F5A2E3009121D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E162B01D20F5A2E3009121D5 /* ViewController.swift */; };
 		E162B02320F5A2F7009121D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E162B02220F5A2F7009121D5 /* Assets.xcassets */; };
 		E162B02620F5A2F7009121D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E162B02420F5A2F7009121D5 /* LaunchScreen.storyboard */; };
 		E1850C2F20F6F1DB00716D98 /* GitHubTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1850C2E20F6F1DB00716D98 /* GitHubTestTableViewController.swift */; };
 		E1850C3120F6F2BD00716D98 /* gitHub.json in Resources */ = {isa = PBXBuildFile; fileRef = E1850C3020F6F2BD00716D98 /* gitHub.json */; };
 		E1850C3320F6F40700716D98 /* GitHubExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1850C3220F6F40700716D98 /* GitHubExample.swift */; };
+		E1850C3520F6F50200716D98 /* GitHubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1850C3420F6F50200716D98 /* GitHubTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E162B01820F5A2E3009121D5 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E162B01B20F5A2E3009121D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E162B01D20F5A2E3009121D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E162B02220F5A2F7009121D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E162B02520F5A2F7009121D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E162B02720F5A2F7009121D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1850C2E20F6F1DB00716D98 /* GitHubTestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubTestTableViewController.swift; sourceTree = "<group>"; };
 		E1850C3020F6F2BD00716D98 /* gitHub.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gitHub.json; sourceTree = "<group>"; };
 		E1850C3220F6F40700716D98 /* GitHubExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubExample.swift; sourceTree = "<group>"; };
+		E1850C3420F6F50200716D98 /* GitHubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				E162B01B20F5A2E3009121D5 /* AppDelegate.swift */,
-				E162B01D20F5A2E3009121D5 /* ViewController.swift */,
 				E162B02220F5A2F7009121D5 /* Assets.xcassets */,
 				E162B02420F5A2F7009121D5 /* LaunchScreen.storyboard */,
 				E162B02720F5A2F7009121D5 /* Info.plist */,
 				E1850C2E20F6F1DB00716D98 /* GitHubTestTableViewController.swift */,
+				E1850C3420F6F50200716D98 /* GitHubTableViewCell.swift */,
 				E1850C3020F6F2BD00716D98 /* gitHub.json */,
 				E1850C3220F6F40700716D98 /* GitHubExample.swift */,
 			);
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E162B01E20F5A2E3009121D5 /* ViewController.swift in Sources */,
 				E1850C3320F6F40700716D98 /* GitHubExample.swift in Sources */,
 				E162B01C20F5A2E3009121D5 /* AppDelegate.swift in Sources */,
 				E1850C2F20F6F1DB00716D98 /* GitHubTestTableViewController.swift in Sources */,
+				E1850C3520F6F50200716D98 /* GitHubTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
